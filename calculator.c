@@ -19,6 +19,7 @@ int main()
                     break;
         case '%': printf("remainder = %d",a%b);
                     break;
+        default : printf("\nEnter valid option..."); 
     }
     return 0;
 }
